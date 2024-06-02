@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+
+    <link rel="Stylesheet" href="indexEstilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sora:wght@100..800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+   
+
+   <section class="container">
+    <div id="area-result">
+        <label id="minutos" class="numbers">00</label>
+        <label class="divider-numbers">:</label>
+        <label id="segundos" class="numbers">00</label>
+        <label class="divider-numbers">:</label>
+        <label id="milisegundos" class="numbers">00</label>
+    </div>
+        <div class="btn-area">
+            <button  onclick="iniciar()"  id="btn-iniciar"class="btn" >Iniciar</button>
+            
+
+            <button  onclick="parar()"id="btn-parar" class="btn">Parar</button>
+            <button onclick="registrar()" id="btn-registrar" class="btn">Registrar</button>
+        </div>
+  </section>
+  <section id="area-historico" >
+    <div id="historico">
+   </div>
+</section>
+   
+   
+  <script src="./js/index.js"></script>   
+</body>
+</html>
